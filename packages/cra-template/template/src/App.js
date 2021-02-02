@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSubscription } from '@atvise/webmi-react';
 import logo from './logo.svg';
 import './App.css';
