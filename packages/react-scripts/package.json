@@ -1,6 +1,6 @@
 {
   "name": "@atvise/react-scripts",
-  "version": "4.0.1",
+  "version": "4.0.1-adapted.0",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
