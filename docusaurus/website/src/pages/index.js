@@ -13,7 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import CodeBlock from '@theme/CodeBlock';
 
-import classnames from 'classnames';
+import clsx from 'clsx';
 
 import styles from './styles.module.css';
 
@@ -44,10 +44,10 @@ function Home() {
       permalink={'/'}
       description={'Set up a modern web app by running one command.'}
     >
-      <div className={classnames('hero hero--dark', styles.heroBanner)}>
+      <div className={clsx('hero hero--dark', styles.heroBanner)}>
         <div className="container">
           <img
-            className={classnames(styles.heroBannerLogo, 'margin-vert--md')}
+            className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
             alt="Create React App logo"
             src={useBaseUrl('img/logo.svg')}
           />
@@ -68,10 +68,7 @@ function Home() {
           <div className="container">
             <div className="row">
               {features.map(({ title, content }, idx) => (
-                <div
-                  key={idx}
-                  className={classnames('col col--4', styles.feature)}
-                >
+                <div key={idx} className={clsx('col col--4', styles.feature)}>
                   <h2>{title}</h2>
                   <p>{content}</p>
                 </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSubscription } from '@atvise/webmi-react';
 import logo from './logo.svg';
 import './App.css';
@@ -23,7 +22,8 @@ function App() {
         </a>
         <hr />
         <p>
-          <code>AGENT.OBJECTS.test</code> is currently: <strong>{data?.value.toFixed(2) ?? ''}</strong>
+          <code>AGENT.OBJECTS.test</code> is currently:{' '}
+          <strong>{data?.value.toFixed(2) ?? ''}</strong>
         </p>
       </header>
     </div>
