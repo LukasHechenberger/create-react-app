@@ -1,8 +1,8 @@
 {
-	"$schema": "https://lukashechenberger.github.io/create-atvise-app/schemas/atviserc.schema.json",
-	"host": "localhost",
-	"port": {
-		"opc": 4844,
-		"http": 8084
-	}
+  "$schema": "https://atvise.github.io/create-atvise-app/schemas/atviserc.schema.json",
+  "host": "localhost",
+  "port": {
+    "opc": 4844,
+    "http": 8084
+  }
 }
